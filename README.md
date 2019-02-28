@@ -3,6 +3,12 @@
 ### Weight: 20%
 <br>
 
+## Instruction to run
+1. Make sure you have python, pip and pipenv installed. (use `pip install pipenv`)
+2. Install all of the project dependancies using `pipenv install`
+3. From the project root, run `pipenv run python main.py`
+
+## Assignment Instructions
 **Overview:**
 
 The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
@@ -35,5 +41,13 @@ This is an on-going competition, and you should submit your result to Kaggle as 
 
 **Specifications:**
 
-Briefly discuss the problem and form your machine learning task
-Get the dataset, describe the data structure with necessary output; visualize the data to discover more insights, apply at least one approach to analyze one perspective like the feature correlation
+- Briefly discuss the problem and form your machine learning task
+- Get the dataset, describe the data structure with necessary output; visualize the data to discover more insights, apply at least one approach to analyze one perspective like the feature correlation
+- Prepare the data: apply at least one approach (data cleaning, or feature scaling etc.) to your data
+- Use these two models: naive bayes classifier and Perceptron, describe your evaluation metrics, train and fine-tune each model to get the promising one
+- Predict the test set, generate the required prediction format then submit to Kaggle, report your model’s result in your assignment
+
+**What You Will Submit:**
+1. A written report to describe your work on each specification of this assignment, as well as the necessary outputs for each step.
+
+2. Your source code file.  The jupyter notebook file (.ipynb) is recommended, then you can attach a single file with the name format UWOuserid_Assign1.ipynb; if you choose other ways, like matlab,  to implement this project, please attach all your code files in to one zip file with the same name format.
